@@ -1,13 +1,16 @@
-export interface Holiday {
-    id: string;
-    name: string;
-    date: Date;
-    type: HolidaysType;
-}
+//2º passo, veja o primeiro abaixo........
+//apagar este arquivo quando criar o Enum;
+// export interface Holiday {
+//     id: string;
+//     name: string;
+//     date: Date;
+//     type: HolidaysType;
+// }
 
-export enum HolidaysType {
-    NACIONAL = 'NACIONAL',
-    ESTADUAL = 'ESTADUAL',
-    MUNICIPAL = 'MUNICIPAL',
-    FACULTATIVO = 'FACULTATIVO',
-}
+//1º - RECORTAR DAQUI e criar um arquivo holidays-type.enum.ts
+// export enum HolidaysType {
+//     NACIONAL = 'NACIONAL',
+//     ESTADUAL = 'ESTADUAL',
+//     MUNICIPAL = 'MUNICIPAL',
+//     FACULTATIVO = 'FACULTATIVO',
+// }
